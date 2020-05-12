@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add">
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:text="Let's Partake!!!"
+        android:layout_marginLeft="100dp"
+        android:textSize="30sp"
+        android:fontFamily="cursive"
+        android:textStyle="italic"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="200dp"
+        >
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="320dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Terms and Conditions"
+                android:fontFamily="sans-serif-thin"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:layout_marginLeft="39dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="23sp"
+                android:fontFamily="sans-serif-thin"
+                android:text="1)The attributes date, college  and Venue are mandatory"
+                android:layout_marginTop="55sp"
+                />
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="23sp"
+                android:fontFamily="sans-serif-thin"
+                android:text="2) Venue can be online or offline. If Offline add the address of the event."
+
+                android:layout_marginTop="125sp"
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="23sp"
+                android:fontFamily="sans-serif-thin"
+                android:text="3) Card details must be correct if the event is paid."
+
+                android:layout_marginTop="202sp"
+                />
+
+
+
+
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/btnview"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+     android:background="@android:color/holo_blue_bright"
+        app:itemTextColor="@android:color/white"
+
+        app:itemIconTint="@android:color/white"
+
+        app:menu="@menu/addmenuhost"></com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

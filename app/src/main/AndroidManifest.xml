@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.geeksclub">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logogc"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logogc"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Manage"></activity>
+        <activity android:name=".Do_Edit" />
+        <activity android:name=".DetailActivity" />
+        <activity android:name=".HomeActivity_Attend" />
+        <activity android:name=".Paid_event_add" />
+        <activity android:name=".Free_event_add" />
+        <activity android:name=".Add" />
+        <activity android:name=".Attende_or_Host" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".otp_Login" />
+        <activity android:name=".signup_Activity" />
+        <activity android:name=".Login_activity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+        <meta-data
+
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_test_3CVSPxMvKrUkKr"
+            />
+    </application>
+
+</manifest>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+android:background="@android:color/black"
+    android:layout_height="match_parent"
+    tools:context=".otp_Login">
+
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+        android:orientation="horizontal"/>
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+      android:gravity="center"
+        android:orientation="vertical"
+        android:padding="50dp">
+
+        <TextView
+
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="69dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:fontFamily="sans-serif-thin"
+            android:text="Wait for the code sent to you"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+            android:textColor="@android:color/white" />
+
+
+        <EditText
+
+            android:textAlignment="center"
+            android:id="@+id/editTextCode"
+            android:layout_width="240dp"
+            android:layout_height="63dp"
+            android:layout_below="@id/progressbar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edittextshape"
+            android:digits="0123456789"
+            android:drawablePadding="10dp"
+            android:fontFamily="sans-serif-thin"
+            android:hint="Enter verification code"
+            android:inputType="phone"
+            android:maxLength="10" />
+
+        <Button
+            android:id="@+id/buttonSignIn"
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextCode"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buttonedt"
+            android:text="Sign In"
+            android:textAllCaps="false"
+            android:textColor="#cdd8f1" />
+
+        <ProgressBar
+            android:visibility="gone"
+            android:id="@+id/progressbar"
+            android:layout_below="@id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

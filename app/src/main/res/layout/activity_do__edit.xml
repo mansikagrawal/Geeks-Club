@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Do_Edit">
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="5dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="35dp"
+                        app:cardCornerRadius="10dp"
+
+
+                        app:cardElevation="5dp">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Enter Enrollment Number"
+                            android:maxLines="1"
+
+                            android:id="@+id/roll"
+                            />
+
+                    </androidx.cardview.widget.CardView>
+
+
+
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="35dp"
+                        app:cardElevation="10dp"
+                        app:cardCornerRadius="5dp"
+                        android:layout_marginTop="25dp"
+                        >
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Enter Event Name"
+                            android:maxLines="1"
+                            android:id="@+id/eventname"
+                            /></androidx.cardview.widget.CardView>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="35dp"
+                        app:cardElevation="10dp"
+
+                        app:cardCornerRadius="5dp"
+                        android:layout_marginTop="25dp"
+                        >
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Enter Event Date"
+                            android:inputType="date"
+                            android:id="@+id/event_date"
+                            /></androidx.cardview.widget.CardView>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="35dp"
+                        android:layout_marginTop="25dp"
+                        app:cardElevation="10dp">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Enter Event Host Name"
+                            android:maxLines="1"
+                            android:id="@+id/eventhostname"
+                            />
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="35dp"
+                        app:cardCornerRadius="5dp"
+                        android:layout_marginTop="25dp"
+                        app:cardElevation="10dp">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Enter Description About Event"
+                            android:maxLines="20"
+                            android:id="@+id/eventdsec"
+                            /></androidx.cardview.widget.CardView>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="35dp"
+                        app:cardCornerRadius="5dp"
+                        android:layout_marginTop="25dp"
+                        app:cardElevation="10dp">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Enter College Name"
+                            android:maxLines="1"
+                            android:id="@+id/collegename"
+                            /></androidx.cardview.widget.CardView>
+
+
+
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="35dp"
+                        app:cardCornerRadius="5dp"
+                        android:layout_marginTop="25dp"
+                        app:cardElevation="10dp">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Enter College Website"
+
+                            android:maxLines="1"
+                            android:inputType="textWebEditText"
+                            android:id="@+id/websitecollege"
+                            /></androidx.cardview.widget.CardView>
+
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="35dp"
+                        app:cardCornerRadius="5dp"
+                        android:layout_marginTop="25dp"
+                        app:cardElevation="10dp">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Goodies if any?"
+                            android:maxLines="10"
+                            android:id="@+id/goodies"
+                            /></androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="35dp"
+                        app:cardCornerRadius="5dp"
+                        android:layout_marginTop="25dp"
+                        app:cardElevation="10dp">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Contact details"
+                            android:maxLines="2"
+                            android:id="@+id/contact"
+                            /></androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="35dp"
+                        app:cardCornerRadius="5dp"
+                        android:layout_marginTop="25dp"
+                        app:cardElevation="10dp">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Price details"
+                            android:maxLines="2"
+                            android:id="@+id/price"
+                            /></androidx.cardview.widget.CardView>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="35dp"
+                        app:cardCornerRadius="5dp"
+                        android:layout_marginTop="25dp"
+                        app:cardElevation="10dp">
+
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/buttonedt"
+                            android:text="Done"
+
+                            android:id="@+id/insert"
+                            android:fontFamily="sans-serif-thin"
+                            android:textStyle="bold"
+                            android:textColor="@android:color/black"
+                            tools:ignore="OnClick" />
+
+                    </androidx.cardview.widget.CardView>
+
+
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+
+</LinearLayout>

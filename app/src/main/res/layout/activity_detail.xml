@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="EVENT"
+           android:textStyle="bold"
+           android:fontFamily="sans-serif-thin"
+           android:textSize="20sp"
+           android:id="@+id/eventname"
+           android:layout_marginBottom="10dp"
+           />
+
+       <TextView
+           android:textStyle="bold"
+           android:fontFamily="sans-serif-thin"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="DATE"
+
+           android:textSize="20sp"
+           android:id="@+id/event_date"
+           android:layout_marginBottom="10dp"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="HOST "
+           android:textSize="20sp"
+           android:textStyle="bold"
+           android:fontFamily="sans-serif-thin"
+           android:id="@+id/eventhostname"
+           android:layout_marginBottom="10dp"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="DESCRIPTION"
+           android:textSize="20sp"
+           android:id="@+id/eventdsec"
+           android:textStyle="bold"
+           android:fontFamily="sans-serif-thin"
+           android:layout_marginBottom="10dp"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="COLLEGE"
+           android:textSize="20sp"
+           android:id="@+id/collegename"
+           android:textStyle="bold"
+           android:fontFamily="sans-serif-thin"
+           android:layout_marginBottom="10dp"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="WEBSITE"
+           android:textSize="20sp"
+           android:textStyle="bold"
+           android:fontFamily="sans-serif-thin"
+           android:id="@+id/websitecollege"
+           android:layout_marginBottom="10dp"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="GOODIES"
+           android:textSize="20sp"
+           android:id="@+id/goodies"
+           android:textStyle="bold"
+           android:fontFamily="sans-serif-thin"
+           android:layout_marginBottom="10dp"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="CONTACT"
+           android:textSize="20sp"
+           android:textStyle="bold"
+           android:fontFamily="sans-serif-thin"
+           android:id="@+id/contact"
+           android:layout_marginBottom="10dp"
+           />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="PRICE"
+           android:textStyle="bold"
+           android:fontFamily="sans-serif-thin"
+           android:textSize="20sp"
+           android:id="@+id/price"
+           android:layout_marginBottom="10dp"
+           />
+
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Enroll"
+           android:id="@+id/pay"
+           android:background="@drawable/buttonedt"
+           android:textSize="15sp"
+           android:fontFamily="sans-serif-thin"
+           android:textStyle="bold"
+           />
+       </LinearLayout>
+   </ScrollView>
+
+</LinearLayout>
